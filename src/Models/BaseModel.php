@@ -2,8 +2,6 @@
 
 namespace Pixelpeter\Genderize\Models;
 
-use Carbon\Carbon;
-
 class BaseModel
 {
     public function __get($property)
