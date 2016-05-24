@@ -40,16 +40,6 @@ Add the alias in `app/config/app.php`
 ];
 ```
 
-### Step 4: Customize configuration
-You can directly edit the configuration in `config/woocommerce.php` or copy these values to your `.env` file.
-```php
-WOOCOMMERCE_STORE_URL=http://example.org
-WOOCOMMERCE_CONSUMER_KEY=ck_your-consumer-key
-WOOCOMMERCE_CONSUMER_SECRET=cs_your-consumer-secret
-WOOCOMMERCE_VERIFY_SSL=false
-WOOCOMMERCE_VERSION=v3
-```
-
 ## Examples
 
 ### Send requests
