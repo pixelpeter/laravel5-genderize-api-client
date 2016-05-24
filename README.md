@@ -1,14 +1,14 @@
 # Laravel 5 Genderize.io API Client
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/vpixelpeter/laravel5-genderize-api-client.svg?style=flat-square)](https://packagist.org/packagespixelpeter/laravel5-genderize-api-client)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/pixelpeter/laravel5-genderize-api-client.svg?style=flat-square)](https://packagist.org/packages/pixelpeter/laravel5-genderize-api-client)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Travis Build](https://img.shields.io/travispixelpeter/laravel5-genderize-api-client/master.svg?style=flat-square)](https://travis-ci.orgpixelpeter/laravel5-genderize-api-client)
-[![Scrutinizer Quality](https://img.shields.io/scrutinizer/gpixelpeter/laravel5-genderize-api-client.svg?style=flat-square)](https://scrutinizer-ci.com/gpixelpeter/laravel5-genderize-api-client)
-[![Scrutinizer Build](https://img.shields.io/scrutinizer/build/gpixelpeter/laravel5-genderize-api-client.svg?style=flat-square)](https://scrutinizer-ci.com/gpixelpeter/laravel5-genderize-api-client)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/edfbddc6-ccbc-425c-9db8-726a5bc371e7.svg?style=flat-square)](https://insight.sensiolabs.com/projects/edfbddc6-ccbc-425c-9db8-726a5bc371e7)
-[![Total Downloads](https://img.shields.io/packagist/dtpixelpeter/laravel5-genderize-api-client.svg?style=flat-square)](https://packagist.org/packagespixelpeter/laravel5-genderize-api-client)
-[![Dependency Status](https://www.versioneye.com/user/projects/56f9414235630e0034fda5a5/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56f9414235630e0034fda5a5)
-[![Coverage Status](https://coveralls.io/repos/githubpixelpeter/laravel5-genderize-api-client/badge.svg?branch=master)](https://coveralls.io/githubpixelpeter/laravel5-genderize-api-client?branch=master)
+[![Travis Build](https://img.shields.io/travis/pixelpeter/laravel5-genderize-api-client/master.svg?style=flat-square)](https://travis-ci.org/pixelpeter/laravel5-genderize-api-client)
+[![Scrutinizer Quality](https://img.shields.io/scrutinizer/g/pixelpeter/laravel5-genderize-api-client.svg?style=flat-square)](https://scrutinizer-ci.com/g/pixelpeter/laravel5-genderize-api-client)
+[![Scrutinizer Build](https://img.shields.io/scrutinizer/build/g/pixelpeter/laravel5-genderize-api-client.svg?style=flat-square)](https://scrutinizer-ci.com/g/pixelpeter/laravel5-genderize-api-client)
+[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/3297d598-b868-40b0-8bea-e09aea1a10c0.svg?style=flat-square)](https://insight.sensiolabs.com/projects/3297d598-b868-40b0-8bea-e09aea1a10c0)
+[![Total Downloads](https://img.shields.io/packagist/dt/pixelpeter/laravel5-genderize-api-client.svg?style=flat-square)](https://packagist.org/packages/pixelpeter/laravel5-genderize-api-client)
+[![Dependency Status](https://www.versioneye.com/user/projects/574483dfce8d0e004130c23b/badge.svg?style=flat)](https://www.versioneye.com/user/projects/574483dfce8d0e004130c23b)
+[![Coverage Status](https://coveralls.io/repos/github/pixelpeter/laravel5-genderize-api-client/badge.svg?branch=master)](https://coveralls.io/github/pixelpeter/laravel5-genderize-api-client?branch=master)
 
 A simple Laravel 5 client for the [Genderize.io API](https://genderize.io/).
 It provides a fluent interface for easy request building.
