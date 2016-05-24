@@ -39,6 +39,11 @@ Add the alias in `app/config/app.php`
     ...
 ];
 ```
+### Step 4: Publish the configuration file
+This is only needed when you have an API key from Genderize.io
+```php
+php artisan vendor:publish --provider="Pixelpeter\Genderize\GenderizeServiceProvider"
+```
 
 ## Examples
 
