@@ -59,7 +59,7 @@ class GenderizeClient
             return $this->names($name);
         }
 
-        $this->names[] = $name;
+        $this->names = [$name];
 
         return $this;
     }
