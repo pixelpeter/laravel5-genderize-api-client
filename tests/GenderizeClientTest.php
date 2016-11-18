@@ -129,6 +129,27 @@ class GenderizeClientTest extends TestCase
     }
 
     /**
+     * Name variable is reset after each call to get()
+     *
+     * @test
+     */
+    public function name_is_reset_after_each_usage()
+    {
+        $this->client->name('John');
+        $names = $this->getPrivateProperty(\Pixelpeter\Genderize\GenderizeClient::class, 'names');
+
+        $this->assertTrue(is_array($names->getValue($this->client)));
+        $this->assertSame('John', $names->getValue($this->client)[0]);
+
+        $this->client->name('Jane');
+        $names = $this->getPrivateProperty(\Pixelpeter\Genderize\GenderizeClient::class, 'names');
+
+        $this->assertTrue(is_array($names->getValue($this->client)));
+        $this->assertCount(1,$names->getValue($this->client));
+        $this->assertSame('Jane', $names->getValue($this->client)[0]);
+    }
+
+    /**
      * Tear down
      */
     public function tearDown()

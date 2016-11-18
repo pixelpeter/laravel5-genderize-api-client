@@ -38,6 +38,6 @@
     "phpunit/phpunit": "^5.1",
     "mockery/mockery": "^0.9.4",
     "satooshi/php-coveralls": "^1.0",
-    "laravel/laravel": "~5.2"
+    "laravel/laravel": "5.2.*"
   }
 }
