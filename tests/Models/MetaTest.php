@@ -1,10 +1,9 @@
 <?php namespace Pixelpeter\Genderize\Test;
 
-use PHPUnit_Framework_TestCase;
-use Pixelpeter\Genderize\Models\Meta;
 use Carbon\Carbon;
+use Pixelpeter\Genderize\Models\Meta;
 
-class MetaTest extends PHPUnit_Framework_TestCase
+class MetaTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Pixelpeter\Genderize\Models\Meta

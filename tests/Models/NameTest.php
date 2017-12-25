@@ -1,9 +1,8 @@
 <?php namespace Pixelpeter\Genderize\Test;
 
-use PHPUnit_Framework_TestCase;
 use Pixelpeter\Genderize\Models\Name;
 
-class NameTest extends PHPUnit_Framework_TestCase
+class NameTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Pixelpeter\Genderize\Models\Name

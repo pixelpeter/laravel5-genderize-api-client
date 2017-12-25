@@ -20,7 +20,7 @@ It provides a fluent interface for easy request building.
 composer require pixelpeter/laravel5-genderize-api-client
 ```
 
-### Step 2: Add the Service Provider
+### Step 2: Add the Service Provider (not needed with v2.x because of auto discovery)
 Add the service provider in `app/config/app.php`
 ```php
 'provider' => [

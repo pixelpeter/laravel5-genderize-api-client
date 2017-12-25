@@ -1,10 +1,9 @@
 <?php namespace Pixelpeter\Genderize\Test;
 
-use PHPUnit_Framework_TestCase;
 use Pixelpeter\Genderize\Models\GenderizeResponse;
 use Unirest\Response;
 
-class GenderizeResponseTest extends PHPUnit_Framework_TestCase
+class GenderizeResponseTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * It correctly parses a response with a single result
