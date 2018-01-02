@@ -7,7 +7,7 @@
 [![Scrutinizer Build](https://img.shields.io/scrutinizer/build/g/pixelpeter/laravel5-genderize-api-client.svg?style=flat-square)](https://scrutinizer-ci.com/g/pixelpeter/laravel5-genderize-api-client)
 [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/3297d598-b868-40b0-8bea-e09aea1a10c0.svg?style=flat-square)](https://insight.sensiolabs.com/projects/3297d598-b868-40b0-8bea-e09aea1a10c0)
 [![Total Downloads](https://img.shields.io/packagist/dt/pixelpeter/laravel5-genderize-api-client.svg?style=flat-square)](https://packagist.org/packages/pixelpeter/laravel5-genderize-api-client)
-[![Dependency Status](https://www.versioneye.com/user/projects/574483dfce8d0e004130c23b/badge.svg?style=flat)](https://www.versioneye.com/user/projects/574483dfce8d0e004130c23b)
+[![Dependency Status](https://beta.gemnasium.com/badges/github.com/pixelpeter/laravel5-genderize-api-client.svg)](https://beta.gemnasium.com/projects/github.com/pixelpeter/laravel5-genderize-api-client)
 [![Coverage Status](https://coveralls.io/repos/github/pixelpeter/laravel5-genderize-api-client/badge.svg?branch=master)](https://coveralls.io/github/pixelpeter/laravel5-genderize-api-client?branch=master)
 
 A simple Laravel 5 client for the [Genderize.io API](https://genderize.io/).
