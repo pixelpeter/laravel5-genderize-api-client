@@ -12,6 +12,15 @@
 A simple Laravel 5 client for the [Genderize.io API](https://genderize.io/).
 It provides a fluent interface for easy request building.
 
+## Version overview
+
+| Laravel | php           | use branch  |
+| ------  | ------------- | ----------- |
+| 5.8     | 7.1, 7.2, 7.3 | w.i.p.      |
+| 5.7     | 7.1, 7.2, 7.3 | 2.0.x       |
+| 5.6     | 7.1, 7.2, 7.3 | 2.0.x       |
+| 5.5     | 7.0, 7.1, 7.2 | 1.1.x/2.0.x |
+
 ## Installation
 
 ### Step 1: Install Through Composer
