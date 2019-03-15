@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1552677853">
+  <project timestamp="1552677853">
+    <package name="Pixelpeter\Genderize\Facades">
+      <file name="/Users/pp/PP/WWW/valet/laravel58-packages/packages/pixelpeter/laravel5-genderize-api-client/src/Facades/Genderize.php">
+        <class name="Pixelpeter\Genderize\Facades\Genderize" namespace="Pixelpeter\Genderize\Facades">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="12" type="method" name="getFacadeAccessor" visibility="protected" complexity="1" crap="1" count="1"/>
+        <line num="14" type="stmt" count="1"/>
+        <metrics loc="16" ncloc="11" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+    </package>
+    <package name="Pixelpeter\Genderize">
+      <file name="/Users/pp/PP/WWW/valet/laravel58-packages/packages/pixelpeter/laravel5-genderize-api-client/src/GenderizeClient.php">
+        <class name="Pixelpeter\Genderize\GenderizeClient" namespace="Pixelpeter\Genderize">
+          <metrics complexity="8" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="21" elements="28" coveredelements="28"/>
+        </class>
+        <line num="44" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="8"/>
+        <line num="46" type="stmt" count="8"/>
+        <line num="47" type="stmt" count="8"/>
+        <line num="48" type="stmt" count="8"/>
+        <line num="56" type="method" name="name" visibility="public" complexity="2" crap="2" count="7"/>
+        <line num="58" type="stmt" count="7"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="62" type="stmt" count="6"/>
+        <line num="64" type="stmt" count="6"/>
+        <line num="73" type="method" name="names" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="75" type="stmt" count="2"/>
+        <line num="77" type="stmt" count="2"/>
+        <line num="86" type="method" name="lang" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="88" type="stmt" count="2"/>
+        <line num="90" type="stmt" count="2"/>
+        <line num="99" type="method" name="country" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="101" type="stmt" count="2"/>
+        <line num="103" type="stmt" count="2"/>
+        <line num="111" type="method" name="get" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="113" type="stmt" count="1"/>
+        <line num="115" type="stmt" count="1"/>
+        <line num="117" type="stmt" count="1"/>
+        <line num="125" type="method" name="buildQuery" visibility="protected" complexity="1" crap="1" count="1"/>
+        <line num="128" type="stmt" count="1"/>
+        <line num="129" type="stmt" count="1"/>
+        <line num="130" type="stmt" count="1"/>
+        <line num="131" type="stmt" count="1"/>
+        <line num="134" type="stmt" count="1"/>
+        <metrics loc="136" ncloc="81" classes="1" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="21" elements="28" coveredelements="28"/>
+      </file>
+      <file name="/Users/pp/PP/WWW/valet/laravel58-packages/packages/pixelpeter/laravel5-genderize-api-client/src/GenderizeServiceProvider.php">
+        <class name="Pixelpeter\Genderize\GenderizeServiceProvider" namespace="Pixelpeter\Genderize">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="11" coveredelements="11"/>
+        </class>
+        <line num="14" type="method" name="boot" visibility="public" complexity="1" crap="1" count="8"/>
+        <line num="16" type="stmt" count="8"/>
+        <line num="18" type="stmt" count="8"/>
+        <line num="19" type="stmt" count="8"/>
+        <line num="21" type="stmt" count="8"/>
+        <line num="28" type="method" name="register" visibility="public" complexity="1" crap="1" count="8"/>
+        <line num="30" type="stmt" count="8"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="8"/>
+        <line num="36" type="stmt" count="8"/>
+        <line num="37" type="stmt" count="8"/>
+        <metrics loc="38" ncloc="28" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="11" coveredelements="11"/>
+      </file>
+    </package>
+    <package name="Pixelpeter\Genderize\Models">
+      <file name="/Users/pp/PP/WWW/valet/laravel58-packages/packages/pixelpeter/laravel5-genderize-api-client/src/Models/BaseModel.php">
+        <class name="Pixelpeter\Genderize\Models\BaseModel" namespace="Pixelpeter\Genderize\Models">
+          <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="4" coveredelements="2"/>
+        </class>
+        <line num="7" type="method" name="__get" visibility="public" complexity="2" crap="2.15" count="5"/>
+        <line num="9" type="stmt" count="5"/>
+        <line num="10" type="stmt" count="5"/>
+        <line num="12" type="stmt" count="0"/>
+        <metrics loc="13" ncloc="13" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="4" coveredelements="2"/>
+      </file>
+      <file name="/Users/pp/PP/WWW/valet/laravel58-packages/packages/pixelpeter/laravel5-genderize-api-client/src/Models/GenderizeResponse.php">
+        <class name="Pixelpeter\Genderize\Models\GenderizeResponse" namespace="Pixelpeter\Genderize\Models">
+          <metrics complexity="6" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="15" coveredelements="15"/>
+        </class>
+        <line num="12" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="14" type="stmt" count="3"/>
+        <line num="15" type="stmt" count="3"/>
+        <line num="16" type="stmt" count="3"/>
+        <line num="18" type="method" name="setMeta" visibility="protected" complexity="1" crap="1" count="3"/>
+        <line num="20" type="stmt" count="3"/>
+        <line num="23" type="method" name="setResult" visibility="protected" complexity="2" crap="2" count="3"/>
+        <line num="25" type="stmt" count="3"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="2"/>
+        <line num="32" type="method" name="returnWithCollection" visibility="protected" complexity="2" crap="2" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <metrics loc="42" ncloc="42" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="15" coveredelements="15"/>
+      </file>
+      <file name="/Users/pp/PP/WWW/valet/laravel58-packages/packages/pixelpeter/laravel5-genderize-api-client/src/Models/Meta.php">
+        <class name="Pixelpeter\Genderize\Models\Meta" namespace="Pixelpeter\Genderize\Models">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
+        </class>
+        <line num="19" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="21" type="stmt" count="4"/>
+        <line num="22" type="stmt" count="4"/>
+        <line num="23" type="stmt" count="4"/>
+        <line num="24" type="stmt" count="4"/>
+        <line num="25" type="stmt" count="4"/>
+        <line num="32" type="method" name="setDate" visibility="protected" complexity="1" crap="1" count="4"/>
+        <line num="34" type="stmt" count="4"/>
+        <line num="36" type="stmt" count="4"/>
+        <metrics loc="38" ncloc="28" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
+      </file>
+      <file name="/Users/pp/PP/WWW/valet/laravel58-packages/packages/pixelpeter/laravel5-genderize-api-client/src/Models/Name.php">
+        <class name="Pixelpeter\Genderize\Models\Name" namespace="Pixelpeter\Genderize\Models">
+          <metrics complexity="6" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="24" coveredelements="24"/>
+        </class>
+        <line num="18" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="20" type="stmt" count="9"/>
+        <line num="22" type="stmt" count="9"/>
+        <line num="23" type="stmt" count="9"/>
+        <line num="24" type="stmt" count="9"/>
+        <line num="25" type="stmt" count="9"/>
+        <line num="26" type="stmt" count="9"/>
+        <line num="34" type="method" name="prepareData" visibility="protected" complexity="1" crap="1" count="9"/>
+        <line num="36" type="stmt" count="9"/>
+        <line num="37" type="stmt" count="9"/>
+        <line num="38" type="stmt" count="9"/>
+        <line num="39" type="stmt" count="9"/>
+        <line num="40" type="stmt" count="9"/>
+        <line num="42" type="stmt" count="9"/>
+        <line num="43" type="stmt" count="9"/>
+        <line num="44" type="stmt" count="9"/>
+        <line num="53" type="method" name="isMale" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="55" type="stmt" count="1"/>
+        <line num="63" type="method" name="isNotMale" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="65" type="stmt" count="1"/>
+        <line num="73" type="method" name="isFemale" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="83" type="method" name="isNotFemale" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="85" type="stmt" count="1"/>
+        <metrics loc="87" ncloc="56" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="24" coveredelements="24"/>
+      </file>
+    </package>
+    <metrics files="7" loc="370" ncloc="259" classes="7" methods="23" coveredmethods="22" conditionals="0" coveredconditionals="0" statements="70" coveredstatements="69" elements="93" coveredelements="91"/>
+  </project>
+</coverage>
