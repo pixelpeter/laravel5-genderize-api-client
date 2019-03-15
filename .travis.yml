@@ -26,7 +26,6 @@ matrix:
 
 before_script:
   - travis_retry composer self-update -q
-  - travis_retry composer install --no-interaction --prefer-source
   - chmod +x ./build/**/*.sh
 
 script:
