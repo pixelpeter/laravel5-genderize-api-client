@@ -19,9 +19,12 @@ class Meta extends BaseModel
     public function __construct($data)
     {
         $this->code = (int)$data->code;
-        $this->limit = (int)$data->headers['X-Rate-Limit-Limit'];
-        $this->remaining = (int)$data->headers['X-Rate-Limit-Remaining'];
-        $this->reset = $this->setDate($data);
+
+        if ($this->code === 200) {
+            $this->limit = (int)$data->headers['X-Rate-Limit-Limit'];
+            $this->remaining = (int)$data->headers['X-Rate-Limit-Remaining'];
+            $this->reset = $this->setDate($data);
+        }
     }
 
     /**
