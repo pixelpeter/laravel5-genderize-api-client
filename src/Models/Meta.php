@@ -20,7 +20,9 @@ class Meta extends BaseModel
     {
         $this->code = (int)$data->code;
 
-        if ($this->code === 200) {
+        if ($this->code === 200 ||
+            $this->code === 429
+        ) {
             $this->limit = (int)$data->headers['X-Rate-Limit-Limit'];
             $this->remaining = (int)$data->headers['X-Rate-Limit-Remaining'];
             $this->reset = $this->setDate($data);
