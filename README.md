@@ -86,14 +86,14 @@ use Genderize;
 
 $response = Genderize::name('Peter')->get();
 
-print $response->result->gender; // 'male'
-print $response->result->name; // 'Peter'
-print $response->result->probability; '0.99'
-print $response->result->count; 144
-print $response->result->isMale(); true
-print $response->result->isFemale(); false
-print $response->result->isNotMale(); false
-print $response->result->isNotFemale(); true
+print $response->result->first()->gender; // 'male'
+print $response->result->first()->name; // 'Peter'
+print $response->result->first()->probability; '0.99'
+print $response->result->first()->count; 144
+print $response->result->first()->isMale(); true
+print $response->result->first()->isFemale(); false
+print $response->result->first()->isNotMale(); false
+print $response->result->first()->isNotFemale(); true
 ```
 
 #### For batch usage
