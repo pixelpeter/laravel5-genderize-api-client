@@ -121,7 +121,7 @@ print $response->meta->reset->diffInSeconds(); // Carbon\Carbon - time left till
 ```
 
 ### More documentation
-Refer to [Genderize.io API Documentation](https://store.genderize.io/documentation/) for more examples and documentation.
+Refer to [Genderize.io API Documentation](https://genderize.io/documentation/) for more examples and documentation.
 
 ## Testing
 Run the tests with:
