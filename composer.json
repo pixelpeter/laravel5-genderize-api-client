@@ -18,7 +18,7 @@
     }
   ],
   "require": {
-    "php" : "^7.1",
+    "php": "^7.1",
     "mashape/unirest-php": "^3.0"
   },
   "autoload": {
@@ -49,5 +49,6 @@
         "Woocommerce": "Pixelpeter\\Genderize\\Facades\\Genderize"
       }
     }
-  }
+  },
+  "abandoned": "pixelpeter/laravel-genderize-api-client"
 }
