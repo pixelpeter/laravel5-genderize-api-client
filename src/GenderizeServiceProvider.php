@@ -13,10 +13,10 @@ class GenderizeServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->mergeConfigFrom(__DIR__ . '/../config/genderize.php', 'genderize');
+        $this->mergeConfigFrom(__DIR__.'/../config/genderize.php', 'genderize');
 
         $this->publishes([
-            __DIR__ . '/../config/genderize.php' => config_path('genderize.php'),
+            __DIR__.'/../config/genderize.php' => config_path('genderize.php'),
         ]);
     }
 

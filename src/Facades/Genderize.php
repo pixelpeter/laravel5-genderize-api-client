@@ -1,4 +1,6 @@
-<?php namespace Pixelpeter\Genderize\Facades;
+<?php
+
+namespace Pixelpeter\Genderize\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

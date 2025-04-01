@@ -20,7 +20,7 @@ abstract class TestCase extends \Illuminate\Foundation\Testing\TestCase
      */
     public function createApplication()
     {
-        $app = require __DIR__ . '/../vendor/laravel/laravel/bootstrap/app.php';
+        $app = require __DIR__.'/../vendor/laravel/laravel/bootstrap/app.php';
 
         $app->register(\Pixelpeter\Genderize\GenderizeServiceProvider::class);
 
@@ -33,9 +33,10 @@ abstract class TestCase extends \Illuminate\Foundation\Testing\TestCase
      * getPrivateProperty
      *
      * @author    Joe Sexton <joe@webtipblog.com>
-     * @param    string $className
-     * @param    string $propertyName
-     * @return    \ReflectionProperty
+     *
+     * @param  string  $className
+     * @param  string  $propertyName
+     * @return \ReflectionProperty
      */
     public function getPrivateProperty($className, $propertyName)
     {

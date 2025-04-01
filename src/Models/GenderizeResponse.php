@@ -7,6 +7,7 @@ use Illuminate\Support\Collection;
 class GenderizeResponse extends BaseModel
 {
     protected $meta;
+
     protected $result;
 
     public function __construct($response)
@@ -31,7 +32,7 @@ class GenderizeResponse extends BaseModel
 
     protected function returnWithCollection($response)
     {
-        $collection = new Collection();
+        $collection = new Collection;
 
         foreach ($response->body as $row) {
             $collection->push(new Name($row));

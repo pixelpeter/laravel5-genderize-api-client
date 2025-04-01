@@ -1,22 +1,23 @@
 # Laravel 5 Genderize.io API Client
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/pixelpeter/laravel5-genderize-api-client.svg?style=flat-square)](https://packagist.org/packages/pixelpeter/laravel5-genderize-api-client)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Travis Build](https://img.shields.io/travis/pixelpeter/laravel5-genderize-api-client/master.svg?style=flat-square)](https://travis-ci.org/pixelpeter/laravel5-genderize-api-client)
-[![Scrutinizer Quality](https://img.shields.io/scrutinizer/g/pixelpeter/laravel5-genderize-api-client.svg?style=flat-square)](https://scrutinizer-ci.com/g/pixelpeter/laravel5-genderize-api-client)
-[![Scrutinizer Build](https://img.shields.io/scrutinizer/build/g/pixelpeter/laravel5-genderize-api-client.svg?style=flat-square)](https://scrutinizer-ci.com/g/pixelpeter/laravel5-genderize-api-client)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/3297d598-b868-40b0-8bea-e09aea1a10c0.svg?style=flat-square)](https://insight.sensiolabs.com/projects/3297d598-b868-40b0-8bea-e09aea1a10c0)
 [![Total Downloads](https://img.shields.io/packagist/dt/pixelpeter/laravel5-genderize-api-client.svg?style=flat-square)](https://packagist.org/packages/pixelpeter/laravel5-genderize-api-client)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Coverage Status](https://coveralls.io/repos/github/pixelpeter/laravel5-genderize-api-client/badge.svg?branch=master)](https://coveralls.io/github/pixelpeter/laravel5-genderize-api-client?branch=master)
+[![Tests](https://github.com/pixelpeter/laravel5-genderize-api-client/actions/workflows/run-tests.yml/badge.svg?branch=master)](https://github.com/pixelpeter/laravel5-genderize-api-client/actions/workflows/run-tests.yml)
+[![Fix PHP code style issues](https://github.com/pixelpeter/laravel5-genderize-api-client/actions/workflows/fix-php-code-style-issues.yml/badge.svg)](https://github.com/pixelpeter/laravel5-genderize-api-client/actions/workflows/fix-php-code-style-issues.yml)
+[![PHPStan](https://github.com/pixelpeter/laravel5-genderize-api-client/actions/workflows/phpstan.yml/badge.svg)](https://github.com/pixelpeter/laravel5-genderize-api-client/actions/workflows/phpstan.yml)
+[![dependabot-auto-merge](https://github.com/pixelpeter/laravel5-genderize-api-client/actions/workflows/dependabot-auto-merge.yml/badge.svg)](https://github.com/pixelpeter/laravel5-genderize-api-client/actions/workflows/dependabot-auto-merge.yml)
 
 A simple Laravel 5 client for the [Genderize.io API](https://genderize.io/).
 It provides a fluent interface for easy request building.
 
+## WARNING: This library is deprecated. Please use https://github.com/pixelpeter/laravel5-genderize-api-client instead.
 ## Version overview
 
 | Laravel | php           | use branch  |
-| ------  | ------------- | ----------- |
-| 5.8     | 7.1, 7.2, 7.3 | w.i.p.      |
+| ------  | ------------- |-------------|
+| 5.8     | 7.1, 7.2, 7.3 | master      |
 | 5.7     | 7.1, 7.2, 7.3 | 2.0.x       |
 | 5.6     | 7.1, 7.2, 7.3 | 2.0.x       |
 | 5.5     | 7.0, 7.1, 7.2 | 1.1.x/2.0.x |

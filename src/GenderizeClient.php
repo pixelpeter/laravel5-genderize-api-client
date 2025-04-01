@@ -8,22 +8,22 @@ use Unirest\Request;
 class GenderizeClient
 {
     /**
-     * @var array $names Holds one or more names to check
+     * @var array Holds one or more names to check
      */
     protected $names;
 
     /**
-     * @var string $lang The language used for the check
+     * @var string | null The language used for the check
      */
     protected $lang;
 
     /**
-     * @var string $country The country used for the check
+     * @var string | null The country used for the check
      */
     protected $country;
 
     /**
-     * @var string $apikey The api key used for the request
+     * @var string The api key used for the request
      */
     protected $apikey;
 
@@ -37,7 +37,6 @@ class GenderizeClient
      */
     const API_URL = 'https://api.genderize.io';
 
-
     /**
      * Create new instance of Pixelpeter\Genderize\GenderizeClient
      */
@@ -50,7 +49,7 @@ class GenderizeClient
     /**
      * Fluent setter for names given as string
      *
-     * @param string $name
+     * @param  string | array  $name
      * @return $this|GenderizeClient
      */
     public function name($name = '')
@@ -67,7 +66,6 @@ class GenderizeClient
     /**
      * Fluent setter for names given as array
      *
-     * @param array $names
      * @return $this
      */
     public function names(array $names)
@@ -80,7 +78,7 @@ class GenderizeClient
     /**
      * Fluent setter for language
      *
-     * @param null $lang
+     * @param  null  $lang
      * @return $this
      */
     public function lang($lang = null)
@@ -93,7 +91,7 @@ class GenderizeClient
     /**
      * Fluent setter for country
      *
-     * @param null $country
+     * @param  null  $country
      * @return $this
      */
     public function country($country = null)
@@ -110,7 +108,7 @@ class GenderizeClient
      */
     public function get()
     {
-        $headers = array('Accept' => 'application/json');
+        $headers = ['Accept' => 'application/json'];
 
         $response = $this->request->get(self::API_URL, $headers, $this->buildQuery());
 
@@ -128,7 +126,7 @@ class GenderizeClient
             'name' => $this->names,
             'country_id' => $this->country,
             'language_id' => $this->lang,
-            'apikey' => $this->apikey
+            'apikey' => $this->apikey,
         ];
 
         return array_filter($query);

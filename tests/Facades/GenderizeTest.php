@@ -1,4 +1,6 @@
-<?php namespace Pixelpeter\Genderize\Test;
+<?php
+
+namespace Pixelpeter\Genderize\Test;
 
 use Pixelpeter\Genderize\Facades\Genderize;
 use Pixelpeter\Genderize\TestCase;
