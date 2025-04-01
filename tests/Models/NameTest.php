@@ -1,4 +1,6 @@
-<?php namespace Pixelpeter\Genderize\Test;
+<?php
+
+namespace Pixelpeter\Genderize\Test;
 
 use Pixelpeter\Genderize\Models\Name;
 
@@ -12,13 +14,13 @@ class NameTest extends \PHPUnit\Framework\TestCase
     /**
      * Set up
      */
-    public function setUp(): void
+    protected function setUp(): void
     {
-        $data = (object)[
+        $data = (object) [
             'gender' => 'male',
             'name' => 'John',
             'probability' => 0.98,
-            'count' => 1234
+            'count' => 1234,
         ];
 
         $this->name = new Name($data);
@@ -44,7 +46,7 @@ class NameTest extends \PHPUnit\Framework\TestCase
      */
     public function defaults_added_correctly()
     {
-        $data = (object)[];
+        $data = (object) [];
 
         $name = new Name($data);
 
@@ -59,7 +61,7 @@ class NameTest extends \PHPUnit\Framework\TestCase
      *
      * @test
      */
-    public function isMale()
+    public function is_male()
     {
         $this->assertTrue($this->name->isMale());
     }
@@ -69,7 +71,7 @@ class NameTest extends \PHPUnit\Framework\TestCase
      *
      * @test
      */
-    public function isNotMale()
+    public function is_not_male()
     {
         $this->assertFalse($this->name->isNotMale());
     }
@@ -79,7 +81,7 @@ class NameTest extends \PHPUnit\Framework\TestCase
      *
      * @test
      */
-    public function isFemale()
+    public function is_female()
     {
         $this->assertFalse($this->name->isFemale());
     }
@@ -89,7 +91,7 @@ class NameTest extends \PHPUnit\Framework\TestCase
      *
      * @test
      */
-    public function isNotFemale()
+    public function is_not_female()
     {
         $this->assertTrue($this->name->isNotFemale());
     }
