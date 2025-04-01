@@ -5,15 +5,15 @@ namespace Pixelpeter\Genderize\Models;
 class Name extends BaseModel
 {
     protected $gender;
-    protected $name;
-    protected $probability;
-    protected $count;
 
+    protected $name;
+
+    protected $probability;
+
+    protected $count;
 
     /**
      * Create new instance of Name model
-     *
-     * @param $data
      */
     public function __construct($data)
     {
@@ -28,7 +28,6 @@ class Name extends BaseModel
     /**
      * Merge data with default so every field is available
      *
-     * @param $data
      * @return object
      */
     protected function prepareData($data)

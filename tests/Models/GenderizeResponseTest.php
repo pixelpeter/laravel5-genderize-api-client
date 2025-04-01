@@ -1,4 +1,6 @@
-<?php namespace Pixelpeter\Genderize\Test;
+<?php
+
+namespace Pixelpeter\Genderize\Test;
 
 use Pixelpeter\Genderize\Models\GenderizeResponse;
 use Unirest\Response;
@@ -15,11 +17,11 @@ class GenderizeResponseTest extends \PHPUnit\Framework\TestCase
         $response = new Response(
             200,
             '{"name":"B\u00e4rbel","gender":"female","probability":"0.75","count":4,"country_id":"DE"}',
-            "content-type: text/html; charset=UTF-8\r\n" .
-            "X-Frame-Options: SAMEORIGIN\r\n" .
-            "X-Powered-By: PHP/5.5.9-1ubuntu4.6\r\n" .
-            "X-Rate-Limit-Limit: 1000\r\n" .
-            "X-Rate-Limit-Remaining: 970\r\n" .
+            "content-type: text/html; charset=UTF-8\r\n".
+            "X-Frame-Options: SAMEORIGIN\r\n".
+            "X-Powered-By: PHP/5.5.9-1ubuntu4.6\r\n".
+            "X-Rate-Limit-Limit: 1000\r\n".
+            "X-Rate-Limit-Remaining: 970\r\n".
             "X-Rate-Reset: 79614\r\n"
         );
 
@@ -39,11 +41,11 @@ class GenderizeResponseTest extends \PHPUnit\Framework\TestCase
         $response = new Response(
             200,
             '[{"name":"B\u00e4rbel","gender":"female","probability":"0.80","count":5},{"name":"Marcel","gender":"male","probability":"0.96","count":403}]',
-            "content-type: text/html; charset=UTF-8\r\n" .
-            "X-Frame-Options: SAMEORIGIN\r\n" .
-            "X-Powered-By: PHP/5.5.9-1ubuntu4.6\r\n" .
-            "X-Rate-Limit-Limit: 1000\r\n" .
-            "X-Rate-Limit-Remaining: 970\r\n" .
+            "content-type: text/html; charset=UTF-8\r\n".
+            "X-Frame-Options: SAMEORIGIN\r\n".
+            "X-Powered-By: PHP/5.5.9-1ubuntu4.6\r\n".
+            "X-Rate-Limit-Limit: 1000\r\n".
+            "X-Rate-Limit-Remaining: 970\r\n".
             "X-Rate-Reset: 79614\r\n"
         );
 
