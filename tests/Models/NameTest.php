@@ -12,7 +12,7 @@ class NameTest extends \PHPUnit\Framework\TestCase
     /**
      * Set up
      */
-    public function setUp()
+    public function setUp(): void
     {
         $data = (object)[
             'gender' => 'male',

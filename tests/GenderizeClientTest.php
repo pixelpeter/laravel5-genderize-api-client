@@ -26,7 +26,7 @@ class GenderizeClientTest extends TestCase
     /**
      * Set up
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
@@ -152,7 +152,7 @@ class GenderizeClientTest extends TestCase
     /**
      * Tear down
      */
-    public function tearDown()
+    public function tearDown(): void
     {
         Mockery::close();
     }

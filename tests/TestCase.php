@@ -3,6 +3,7 @@
 namespace Pixelpeter\Genderize;
 
 use ReflectionClass;
+use Symfony\Component\HttpKernel\HttpKernelInterface;
 
 abstract class TestCase extends \Illuminate\Foundation\Testing\TestCase
 {
@@ -35,7 +36,7 @@ abstract class TestCase extends \Illuminate\Foundation\Testing\TestCase
      * @author    Joe Sexton <joe@webtipblog.com>
      * @param    string $className
      * @param    string $propertyName
-     * @return    \ReflectionProperty
+     * @return   \ReflectionProperty
      */
     public function getPrivateProperty($className, $propertyName)
     {
