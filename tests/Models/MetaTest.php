@@ -20,9 +20,9 @@ class MetaTest extends \PHPUnit\Framework\TestCase
         $data = (object) [
             'code' => 200,
             'headers' => [
-                'X-Rate-Limit-Limit' => 7000,
-                'X-Rate-Limit-Remaining' => 1000,
-                'X-Rate-Reset' => 0,
+                'x-rate-limit-limit' => 7000,
+                'x-rate-limit-remaining' => 1000,
+                'x-rate-reset' => 0,
             ],
         ];
 

@@ -20,8 +20,8 @@ class Meta extends BaseModel
     public function __construct($data)
     {
         $this->code = (int) $data->code;
-        $this->limit = (int) $data->headers['X-Rate-Limit-Limit'];
-        $this->remaining = (int) $data->headers['X-Rate-Limit-Remaining'];
+        $this->limit = (int) $data->headers['x-rate-limit-limit'];
+        $this->remaining = (int) $data->headers['x-rate-limit-remaining'];
         $this->reset = $this->setDate($data);
     }
 
@@ -32,6 +32,6 @@ class Meta extends BaseModel
     {
         $date = Carbon::now();
 
-        return $date->addSeconds($data->headers['X-Rate-Reset']);
+        return $date->addSeconds($data->headers['x-rate-reset']);
     }
 }
