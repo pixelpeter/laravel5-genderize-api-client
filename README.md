@@ -12,7 +12,7 @@
 A simple Laravel 5 client for the [Genderize.io API](https://genderize.io/).
 It provides a fluent interface for easy request building.
 
-## WARNING: This library is deprecated. Please use https://github.com/pixelpeter/laravel5-genderize-api-client instead.
+## WARNING: This library is deprecated. Please use [https://github.com/pixelpeter/laravel-genderize-api-client](https://github.com/pixelpeter/laravel-genderize-api-client) instead.
 ## Version overview
 
 | Laravel | php           | use branch  |
